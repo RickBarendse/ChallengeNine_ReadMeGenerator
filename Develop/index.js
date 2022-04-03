@@ -77,7 +77,43 @@ const questions = () => {
         {
             type: 'input',
             name: 'tests',
-            message: 'Do you want to provide test samples?',
+            message: 'Please provide test samples?',
+        },
+
+
+        {
+            type: 'checkbox',
+            name: 'licenses',
+            message:  'Select which licenses to include. (Select all that apply)',
+            choices: ['GitHub', 'MIT', 'GNU', 'NPM', 'Apache 2.0', 'ISC']
+        },
+
+        {
+            type: 'input',
+            name: 'github',
+            message: 'Enter your GitHub username. (Required)',
+            validate: githubInput => {
+                if (githubInput) {
+                    return true;
+                } else {
+                    console.log('You must provide your GitHub username!')
+                    return false;
+                }
+            }       
+        },
+
+        {
+            type: 'input',
+            name: 'email',
+            message: 'Input your email address. (required)',
+            validate: emailInput => {
+                if (emailInput) {
+                    return true;
+                } else {
+                    console.log('Please include your email address!')
+                    return false;
+                }
+            }
         }
     ]);
 }
