@@ -34,7 +34,6 @@
   If you have any questions regardinmg this application please email me at [Rick.Barendse@Outlook.com](Rick.Barendse@Outlook.com)
 
   ## Video Link
-  Please see the following video that demostrates how to use the application:  
-  chrome-extension://mmeijimgabbpbgpdklnllpncmdofkcpn/app.html#/files/2f01e15d-709d-4781-y80b-2e83fb7292d2
+  Please see the following video that demostrates how to use the application:  https://drive.google.com/file/d/1R4F1LdXPut3zWfpE1mgAJJWoIYIhgi0N/view
 
 
