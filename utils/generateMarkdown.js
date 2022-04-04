@@ -26,6 +26,8 @@ function generateMarkdown(data) {
   *[Contribute](#contribute)
   *[Tests](#tests)
 
+  ## Installation
+  ${data.installation}
 
   ## Usage
   ${data.usage}
@@ -33,11 +35,11 @@ function generateMarkdown(data) {
   ## License
   *This application is covered under the ${data.license} license
 
-  ## Testing
-  ${data.tests}
-
   ## Contribute
   ${data.contribute}
+
+  ## Tests
+  ${data.tests}
 
   ## Questions
   Created by: [${data.github}]
