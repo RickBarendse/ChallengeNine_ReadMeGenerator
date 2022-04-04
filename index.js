@@ -88,10 +88,10 @@ const questions = () => {
 
 
         {
-            type: 'checkbox',
+            type: 'list',
             name: 'licenses',
             message: 'Select which licenses to include. (Select all that apply)',
-            choices: ['GitHub', 'MIT', 'GNU', 'NPM', 'Apache 2.0', 'ISC']
+            choices: ['MIT', 'GNU 2.0', 'GNU 3.0', 'NPM', 'Apache 2.0', 'ISC']
         },
 
         {

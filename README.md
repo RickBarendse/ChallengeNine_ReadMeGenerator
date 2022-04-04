@@ -1,7 +1,7 @@
-# Read Me Generator
+# hello
 
   ## Description
-  A command line application that uses Node.js to create a professional ReadMe after a user enters a series of inputprompts.
+  hello
 
   ## Table of Contents
   * [Instatallation](#installation)
@@ -11,21 +11,22 @@
   * [Tests](#tests)
 
   ## Installation
-  Download code files from GitHub.  Node.js, npm inquirer and npm fs are required.
+  hello
 
   ## Usage
-  Answer input prompts after installing required files.
+  hello
 
   ## License
-  This application is covered under the undefined license
+  The application is covered by the following license:  Apache 2.0
+  ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
   ## Contribute
-  Contact me
+  hello
 
   ## Tests
-  Here are test samples
+  hello
 
   ## Questions
-  Please visit my GitHub Overview page at: https://github.com/RickBarendse
+  Please visit my GitHub Overview page at: https://github.com/hello
 
-  If you have any questions regardinmg this application please email me at [Rick.Barendse@Outlook.com](Rick.Barendse@Outlook.com)
+  If you have any questions regardinmg this application please email me at [hello](hello)
