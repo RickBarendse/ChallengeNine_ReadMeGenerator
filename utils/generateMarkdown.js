@@ -12,7 +12,7 @@ const fs = require('fs');
 // If there is no license, return an empty string
 // function renderLicenseSection(license) {}
 
-// TODO: Create a function to generate markdown for README
+// Function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 
@@ -20,11 +20,11 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Table of Contents
-  *[Instatallation](#installation)
-  *[Usage](#usage)
-  *[License](#license)
-  *[Contribute](#contribute)
-  *[Tests](#tests)
+  * [Instatallation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contribute](#contribute)
+  * [Tests](#tests)
 
   ## Installation
   ${data.installation}
@@ -42,7 +42,7 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions
-  Created by: [${data.github}]
+  Created by: https://github.com/${data.github}
 
   If you have any questions regardinmg this application please email me at [${data.email}](${data.email})
 `;

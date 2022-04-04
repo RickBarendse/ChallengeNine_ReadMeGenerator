@@ -1,31 +1,31 @@
-# README Generator
+# Professional ReadMe Generator
 
   ## Description
-  A command line application that uses Node.js to generate a professional ReadMe file for an application.
+  A command line application using Node.js to create a professional ReadMe
 
   ## Table of Contents
-  *[Instatallation](#installation)
-  *[Usage](#usage)
-  *[License](#license)
-  *[Contribute](#contribute)
-  *[Tests](#tests)
+  * [Instatallation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contribute](#contribute)
+  * [Tests](#tests)
 
   ## Installation
-  None
+  Install required modules:  inquirer, fs
 
   ## Usage
-  Install required nodes
+  You answer the questions
 
   ## License
   *This application is covered under the undefined license
 
   ## Contribute
-  they can't
+  contact me
 
   ## Tests
-  There are none
+  There are no samples
 
   ## Questions
-  Created by: [RickBarendse]
+  Created by: https://github.com/RickBarendse
 
   If you have any questions regardinmg this application please email me at [Rick.Barendse@Outlook.com](Rick.Barendse@Outlook.com)
