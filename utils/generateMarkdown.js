@@ -38,7 +38,9 @@ function licenseBadge(data) {
 
 // Function to generate markdown for README
 function generateMarkdown(data) {
+
   return `# ${data.title}
+  ${licenseBadge(data)}
 
   ## Description
   ${data.description}
@@ -58,7 +60,6 @@ function generateMarkdown(data) {
 
   ## License
   The application is covered by the following license:  ${data.licenses}
-  ${licenseBadge(data)}
 
   ## Contribute
   ${data.contribute}
