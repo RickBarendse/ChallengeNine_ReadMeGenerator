@@ -1,5 +1,7 @@
-# hello
-  ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-green.svg)
+# ![License: GPL v3](https://img.shields.io/badge/License-NPM-yellow.svg)
+  
+  hello
+ 
 
   ## Description
   hello
@@ -18,7 +20,7 @@
   hello
 
   ## License
-  The application is covered by the following license:  GNU 3.0
+  The application is covered by the following license:  NPM
 
   ## Contribute
   hello
