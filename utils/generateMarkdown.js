@@ -12,6 +12,12 @@ const fs = require('fs');
 // If there is no license, return an empty string
 // function renderLicenseSection(license) {}
 
+function badge(license){
+  return `![Badge](https://img.shields.io/badge/License-${license}-blueviolet)`
+}
+
+badge()
+
 // Function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
@@ -33,7 +39,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
-  *This application is covered under the ${data.license} license
+  This application is covered under the ${data.license} license
 
   ## Contribute
   ${data.contribute}
@@ -42,7 +48,7 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions
-  Created by: https://github.com/${data.github}
+  Please visit my GitHub Overview page at: https://github.com/${data.github}
 
   If you have any questions regardinmg this application please email me at [${data.email}](${data.email})
 `;
